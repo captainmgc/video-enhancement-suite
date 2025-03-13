@@ -15,23 +15,17 @@ A powerful Chrome extension designed to enhance your video playback experience w
 - 💾 **Automatic Settings Persistence**
 - 🌐 **Works on All Websites**
 - 🎥 **Supports Dynamically Loaded Videos**
-
-## 🛠️ Installation
-
-### 📌 From Chrome Web Store (Coming Soon)
-1. Visit [Chrome Web Store](chrome://extensions/)
-![Görsel](https://blogger.googleusercontent.com/img/a/AVvXsEib1WyUaXJ4N6UWW198m5AolX3JzxTCCOOvz-DW3Rg85SL1RaOmwnSYSnPcct7eSOwuxxAANB7xvUrF4iy-XKcwUTyoOmRaYBtSFG7xBpm5dokGNeYUFQ-2bI_lapQIx5yrYqt0oyYIaO01VThZmcoA3v1yDhmal1aQ6lQUohZAHrxxM7xj6EpuDvHKFPw=s16000)
-2. Click **"Add to Chrome"**
-3. Confirm the installation
-
-### 🏗️ Manual Installation
-1. Download or clone this repository:
+- 
+### 🛠️ Installation
+1. Download or clone this repository:  
    ```bash
    git clone https://github.com/captainmgc/video-enhancement-suite.git
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable **Developer Mode** (top right corner)
-4. Click **Load unpacked**
-5. Select the **extension directory**
+   ```
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. ![Görsel](https://blogger.googleusercontent.com/img/a/AVvXsEib1WyUaXJ4N6UWW198m5AolX3JzxTCCOOvz-DW3Rg85SL1RaOmwnSYSnPcct7eSOwuxxAANB7xvUrF4iy-XKcwUTyoOmRaYBtSFG7xBpm5dokGNeYUFQ-2bI_lapQIx5yrYqt0oyYIaO01VThZmcoA3v1yDhmal1aQ6lQUohZAHrxxM7xj6EpuDvHKFPw=s16000)
+4. Enable **Developer Mode** (toggle at the top right corner).  
+5. Click **Load unpacked**.  
+6. Select the **extension folder**.  
 
 ## 🎮 Usage
 
@@ -44,21 +38,14 @@ A powerful Chrome extension designed to enhance your video playback experience w
 3. Use the **Reset** button to restore default settings.
 
 ## 👨‍💻 Development
-
+Feel free to contribute! Fork the repo, make changes, and submit a pull request. 
 ### Prerequisites
 
 - **Google Chrome Browser**
 - **Basic knowledge of HTML, CSS, and JavaScript**
 
-### Local Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/captainmgc/video-enhancement-suite
-   ```
-2. Navigate into the project directory and make changes.
-3. Load the extension manually using **Chrome's Load Unpacked** feature (see manual installation).
-## Acknowledgments
+## 📜 License  
+This project is licensed under the **MIT License**. 
 
 - Created by [captainmgc](https://github.com/captainmgc)
 - Special thanks to all contributors and testers
