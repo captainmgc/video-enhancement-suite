@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Video Enhancement Suite</title>
+  <link href="popup.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icon48.png" alt="Video Enhancement Suite" class="logo">
+      <h2>Video Enhancement Controls</h2>
+      <button id="infoButton" class="info-button">ℹ️</button>
+    </div>
+
+    <div class="control-group">
+      <label>
+        <span class="icon">☀️</span>
+        Brightness: <span id="brightnessValue">100%</span>
+      </label>
+      <input type="range" id="brightness" min="0" max="200" value="100">
+    </div>
+
+    <div class="control-group">
+      <label>
+        <span class="icon">◐</span>
+        Contrast: <span id="contrastValue">100%</span>
+      </label>
+      <input type="range" id="contrast" min="0" max="200" value="100">
+    </div>
+
+    <div class="control-group">
+      <label>
+        <span class="icon">🎨</span>
+        Saturation: <span id="saturationValue">100%</span>
+      </label>
+      <input type="range" id="saturation" min="0" max="200" value="100">
+    </div>
+
+    <div class="control-group">
+      <label>
+        <span class="icon">⏱️</span>
+        Speed: <span id="speedValue">1x</span>
+      </label>
+      <div class="speed-controls">
+        <button id="decreaseSpeed" class="speed-button">-</button>
+        <input type="range" id="speed" min="25" max="400" value="100" step="25">
+        <button id="increaseSpeed" class="speed-button">+</button>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label>
+        <span class="icon">👁️</span>
+        Blue Light: <span id="bluelightValue">0%</span>
+      </label>
+      <input type="range" id="bluelight" min="0" max="100" value="0">
+    </div>
+
+    <button id="reset">Reset All Filters</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
