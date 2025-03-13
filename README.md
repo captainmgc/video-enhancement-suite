@@ -1,4 +1,3 @@
-````markdown
 ![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxyRkFRMor3aMWVk0vtjeSXtJaQHquIvfG9TYSLtj0zLLuGcCkgf0w6pfeakBpPsHv-kj4uuMZDtNrtg0RHfGui3iOc1nY-olttI3QDC70Yra4anl-n7WZsL8Yy7K05gTExyNe-atFkeY0V0_m6JggBM6Sr9e8NuGcyCcgGkzAPNgFeaIXPPBk5DGDL8/s16000/logo-vec.png)
 
 # 🎬 Video Enhancement Suite
@@ -33,7 +32,6 @@ A powerful Chrome extension designed to enhance your video playback experience w
 1. Download or clone this repository:
    ```bash
    git clone https://github.com/yourusername/video-enhancement-suite.git
-````
 
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable **Developer Mode** (top right corner)
